@@ -1,2 +1,2 @@
 # pytorch-vit
-pytorch implementation of vision transformer
+Train vision transformer from scratch using the Imagenet-2012. 
