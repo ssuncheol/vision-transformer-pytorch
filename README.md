@@ -8,7 +8,7 @@ Pytorch implementation of Google AI's 2021 Vision Transformer.
 
 ##  Quickstart 
 
-### 0. Prepare the data (Imagenet-1k)
+### Prepare the data (Imagenet-1k)
 
 ```shell 
 wget http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_train.tar
