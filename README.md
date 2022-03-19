@@ -67,22 +67,34 @@ val
 
 ### Model 
 
-VIT-B-16
-- Add the hyperparameter 
+I use ViT-B-16. model's configuration as follows  
+
+
+
+
+- image size : 224
+- patch size : 16
+- classes : 1000
+- Hidden size D : 768 (patch/ position embedding dim)
+- MLP dim : 3072 (dimension of the MLP layer)
+- heads : 12  (multi-head attention layer)
+- depth(layers) : 12  (number of transformer blocks)
+
+| Model 	| Parameters | Image size 	| Patch size 	| Hidden dim(patch/position embedding dim)| MLP dim | Heads(multi-head-att) | Depth(transformer blocks) | 
+| ViT=B=16 	| 86M | 224 	| 16 	| 768| 3072 | 12 | 12 | 
 
 
 
 ## Experiments 
 
-I user ImageNet-1k Dataset to train and evalute model 
-
+I use ImageNet-1k Dataset to train and evalute model 
 
 ### Arguments
 | Args 	| Type 	| Description 	| Default|
 |---------|--------|----------------------------------------------------|:-----:|
-| epochs 	| [int] 	| epochs | 200|
+| epochs 	| [int] 	| epochs | 300|
 | batch_size 	| [int] 	| batch size| 1024|
-| model 	| [str]	| res, dense, vgg| 	res|
+| model 	| [str]	| vision transformer| 	vit|
 | optimizer 	| [str]	| adam, adamw| 	adamw|
 | warnup_steps 	| [int]	| warmup steps| 100k|
 | weight_decay 	| [float]	| weight decay | 0.3|
@@ -90,15 +102,17 @@ I user ImageNet-1k Dataset to train and evalute model
 
 
 ### Train the model 
+
 ```shell
-python3 main.py --
+python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --mode='train' --world_size=8
 ```
 
 ### Result 
+| --- 	| Dataset 	| Batch size | Top-1 	|
+| Original paper 	| ImageNet-1k 	| 4096 | 74.6% 	|
+| Implementation 	| ImageNet-1k 	| 1024 | 72.58% 	| 
 
-- Orginal paper / dataset /top-1
-- my implementation / dataset / top-1 
-
+-  There is a difference in performance because of batch size
 
 ### Reference 
 - https://arxiv.org/abs/2010.11929
