@@ -72,7 +72,7 @@ I use ViT-B-16. model's configuration as follows
 
 | Model 	| Parameters | Image size 	| Patch size 	| Hidden dim(patch/position embedding dim)| MLP dim | Heads(multi-head-att) | Depth(transformer blocks) | 
 |:---------:|:--------:|:-------:|:--------:|:----------:|:---------:|:---------:|:------:|
-| ViT=B=16 	| 86M | 224 	| 16 	| 768| 3072 | 12 | 12 | 
+| ViT-B-16 	| 86M | 224 	| 16 	| 768| 3072 | 12 | 12 | 
 
 
 
