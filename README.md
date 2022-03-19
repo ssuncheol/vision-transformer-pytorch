@@ -88,6 +88,7 @@ I use ImageNet-1k Dataset to train and evalute model
 | Model 	| [str]	| Vision Transformer| 	vit|
 | Optimizer 	| [str]	| Adam, Adamw| 	adamw|
 | Weight_decay 	| [float]	| Weight decay | 0.3|
+| T_max 	| [int]	| Cosine Annealing step | 80000 |
 | Dropout 	| [float]	| Dropout | 0.0|
 
 ### How to train
