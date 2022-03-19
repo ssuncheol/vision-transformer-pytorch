@@ -6,7 +6,16 @@ Pytorch implementation of Google AI's 2021 Vision Transformer.
 
 - Link : https://arxiv.org/abs/2010.11929
 
+## Getting Started 
 
+### Requirements 
+
+```shell (add the version)
+ubuntu, cuda
+python
+pytorch
+torchvision
+```
 
 ##  Quickstart 
 
@@ -56,4 +65,28 @@ val
  └─── ...
 ```
 
-### 
+### Model 
+
+VIT-B-16
+- Add the hyperparameter 
+
+
+
+
+
+### Experiments 
+
+I user ImageNet-1k Dataset to train and evalute model 
+
+- Add the configuration 
+
+### Result 
+
+- Orginal paper / dataset /top-1
+- my implementation / dataset / top-1 
+
+
+### Reference 
+- https://arxiv.org/abs/2010.11929
+- https://arxiv.org/abs/2106.01548
+
