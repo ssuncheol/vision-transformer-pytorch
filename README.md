@@ -13,3 +13,8 @@ Pytorch implementation of Google AI's 2021 Vision Transformer.
 ```shell 
 wget http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_train.tar
 ```
+### Cloning a repository
+
+```shell
+git clone https://github.com/ssuncheol/Pytorch-VIT.git
+```
