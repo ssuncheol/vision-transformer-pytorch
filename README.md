@@ -95,6 +95,7 @@ python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --mode='train' -
 -  There is a difference in performance because of batch size
 
 ### Reference 
+- https://arxiv.org/abs/1706.03762
 - https://arxiv.org/abs/2010.11929
 - https://arxiv.org/abs/2106.01548
 
