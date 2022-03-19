@@ -6,6 +6,7 @@ Pytorch implementation of Google AI's 2021 Vision Transformer.
 > Link : https://arxiv.org/abs/2010.11929
 
 
+
 ##  Quickstart 
 
 ### Prepare the data (Imagenet-1k)
