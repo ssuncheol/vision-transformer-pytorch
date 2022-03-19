@@ -25,7 +25,7 @@ wget http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_train.
 ```
 - Make the folder structure of the dataset as follows 
 
-'''shell
+```
 train
  └─── n01440764
           └───── n01440764_18.jpeg
@@ -45,7 +45,7 @@ val
           └───── ILSVRC2012_val_00000236.jpeg
           └───── ...
  └─── ...
-'''
+```
 
  
 
