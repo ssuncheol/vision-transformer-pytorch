@@ -1,3 +1,15 @@
-# pytorch-vit
-Train vision transformer from scratch using the Imagenet-2012. 
+# Vision Transformer-pytorch 
 
+Pytorch implementation of Google AI's 2021 Vision Transformer. 
+
+> Title : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+> Link : https://arxiv.org/abs/2010.11929
+
+
+##  Quickstart 
+
+### 0. Prepare the data (Imagenet-1k)
+
+'''shell 
+wget http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_train.tar
+'''
