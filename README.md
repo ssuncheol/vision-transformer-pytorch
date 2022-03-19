@@ -6,6 +6,18 @@ Pytorch implementation of Google AI's 2021 Vision Transformer. (Distributed Data
 
 - Link : https://arxiv.org/abs/2010.11929
 
+## Requirements 
+
+```shell
+Cuda (11.0)
+Python3 (3.8)
+PyTorch  
+Torchvision
+Einops
+Pandas 
+Numpy
+```
+
 ##  Quickstart 
 
 ### Weights & Biases(Visualization tool)
@@ -75,15 +87,13 @@ I use ImageNet-1k Dataset to train and evalute model
 | Batch_size 	| [int] 	| Batch size| 1024|
 | Model 	| [str]	| Vision Transformer| 	vit|
 | Optimizer 	| [str]	| Adam, Adamw| 	adamw|
-| Warnup_steps 	| [int]	| Warmup steps| 100k|
 | Weight_decay 	| [float]	| Weight decay | 0.3|
 | Dropout 	| [float]	| Dropout | 0.0|
-
 
 ### How to train
 
 ```shell
-python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --mode='train' --world_size=8
+python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --t_max=80000 --mode='train' --world_size=8
 ```
 
 ### Result 
