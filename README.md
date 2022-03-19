@@ -10,9 +10,10 @@ Pytorch implementation of Google AI's 2021 Vision Transformer.
 
 ##  Quickstart 
 
-### Wandb 
+### Wandb(Visualization tool)
 
-Before starting, you should login wandb using your personal API key. 
+- Before starting, you should login wandb using your personal API key. 
+- Wandb link : https://wandb.ai/site
 
 ```shell
 wandb login PERSONAL_API_KEY
