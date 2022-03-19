@@ -86,7 +86,7 @@ I use ImageNet-1k Dataset to train and evalute model
 | Epochs 	| [int] 	| Epochs | 300|
 | Batch_size 	| [int] 	| Batch size| 1024|
 | Model 	| [str]	| Vision Transformer| 	vit|
-| Optimizer 	| [str]	| Adam, Adamw| 	adamw|
+| Optimizer 	| [str]	| Adam, Adamw| 	AdamW|
 | Weight_decay 	| [float]	| Weight decay | 0.3|
 | T_max 	| [int]	| Cosine Annealing step | 80000 |
 | Dropout 	| [float]	| Dropout | 0.0|
