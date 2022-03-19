@@ -10,13 +10,21 @@ Pytorch implementation of Google AI's 2021 Vision Transformer.
 
 ##  Quickstart 
 
+### Wandb 
+
+Before starting, you should login wandb using your personal API key. 
+
+```shell
+wandb login PERSONAL_API_KEY
+```
+
 ### Cloning a repository
 
 ```shell
 git clone https://github.com/ssuncheol/Pytorch-VIT.git
 ```
 
-### Dataset(Imagenet-1k)
+### Prepare a dataset(Imagenet-1k)
 
 - Download Imagenet-1k from open-source 
 
@@ -47,6 +55,4 @@ val
  └─── ...
 ```
 
- 
-
-### Hyper-para
+### 
