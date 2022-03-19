@@ -80,7 +80,7 @@ I use ImageNet-1k Dataset to train and evalute model
 | Dropout 	| [float]	| Dropout | 0.0|
 
 
-### Train the model 
+### How to train
 
 ```shell
 python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --mode='train' --world_size=8
