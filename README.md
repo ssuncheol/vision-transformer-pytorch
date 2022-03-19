@@ -72,13 +72,27 @@ VIT-B-16
 
 
 
-
-
-### Experiments 
+## Experiments 
 
 I user ImageNet-1k Dataset to train and evalute model 
 
-- Add the configuration 
+
+### Arguments
+| Args 	| Type 	| Description 	| Default|
+|---------|--------|----------------------------------------------------|:-----:|
+| epochs 	| [int] 	| epochs | 200|
+| batch_size 	| [int] 	| batch size| 1024|
+| model 	| [str]	| res, dense, vgg| 	res|
+| optimizer 	| [str]	| adam, adamw| 	adamw|
+| warnup_steps 	| [int]	| warmup steps| 100k|
+| weight_decay 	| [float]	| weight decay | 0.3|
+| dropout 	| [float]	| dropout | 0.0|
+
+
+### Train the model 
+```shell
+python3 main.py --
+```
 
 ### Result 
 
