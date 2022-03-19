@@ -81,7 +81,7 @@ I use ViT-B-16. model's configuration as follows
 - depth(layers) : 12  (number of transformer blocks)
 
 | Model 	| Parameters | Image size 	| Patch size 	| Hidden dim(patch/position embedding dim)| MLP dim | Heads(multi-head-att) | Depth(transformer blocks) | 
-|---------|--------|----------------------------------------------------|--------|----------|---------|---------|:-----:|
+|---------|--------|-------|--------|----------|---------|---------|:------:|
 | ViT=B=16 	| 86M | 224 	| 16 	| 768| 3072 | 12 | 12 | 
 
 
@@ -110,7 +110,7 @@ python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --mode='train' -
 
 ### Result 
 | --- 	| Dataset 	| Batch size | Top-1 	|
-|---------|--------|----------------------------------------------------|:-----:|
+|---------|--------|---------------------------------------|:-----:|
 | Original paper 	| ImageNet-1k 	| 4096 | 74.6% 	|
 | Implementation 	| ImageNet-1k 	| 1024 | 72.58% 	| 
 
