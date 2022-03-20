@@ -91,6 +91,8 @@ I use ImageNet-1k Dataset to train and evalute model
 | Weight_decay 	| [float]	| Weight decay | 0.3|
 | T_max 	| [int]	| Cosine Annealing step | 80000 |
 | Dropout 	| [float]	| Dropout | 0.0|
+| World_size 	| [int]	| World size | 8 |
+
 
 ### How to train
 
