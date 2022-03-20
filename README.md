@@ -26,6 +26,7 @@ Numpy
 - Weights & Biases : https://wandb.ai/site
 
 ```shell
+!pip install wandb
 wandb login PERSONAL_API_KEY
 ```
 
