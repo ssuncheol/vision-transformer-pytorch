@@ -1,6 +1,6 @@
-## Vision Transformer(Pytorch) 
+## Vision Transformer : A Pytorch Implementation 
 
-Pytorch implementation of Google AI's 2021 Vision Transformer. (Distributed Data Parallel & Mixed Precision)
+This is a Pytorch implementation of Google AI's 2021 Vision Transformer. (Distributed Data Parallel & Mixed Precision)
 
 - Title : An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 
