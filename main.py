@@ -30,7 +30,7 @@ parser.add_argument('--data_path', type=str, default='./path', metavar='N',
                     help='data') 
 parser.add_argument('--model', type=str, default='vit', metavar='N',
                     help='model')
-parser.add_argument('--batch_size', type=int, default=4096, metavar='N',
+parser.add_argument('--batch_size', type=int, default=512, metavar='N',
                     help='input batch size for training (default: 64)')
 parser.add_argument('--epochs', type=int, default=300, metavar='N',
                     help='number of epochs to train (default: 10)')
