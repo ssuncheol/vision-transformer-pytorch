@@ -14,8 +14,6 @@ Python3 3.8
 PyTorch 1.8 
 Torchvision 0.10.0
 Einops 0.4.1
-Pandas 
-Numpy 
 ```
 
 ##  Quickstart 
