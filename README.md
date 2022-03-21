@@ -9,13 +9,13 @@ This is a Pytorch implementation of Google AI's 2021 Vision Transformer. (Distri
 ## Requirements 
 
 ```shell
-Cuda >= 11.0
-Python3 >= 3.8
-PyTorch >= 1.8 
-Torchvision >= 0.10.0
-Einops >= 0.4.1
+Cuda 11.0
+Python3 3.8
+PyTorch 1.8 
+Torchvision 0.10.0
+Einops 0.4.1
 Pandas 
-Numpy
+Numpy 
 ```
 
 ##  Quickstart 
