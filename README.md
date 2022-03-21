@@ -99,7 +99,7 @@ python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --t_max=80000 --
 ```
 
 ### Result 
-| --- 	| Dataset 	| Batch size | Top-1 	|
+| - 	| Dataset 	| Batch size | Top-1 	|
 |:---------:|:--------:|:---------------------------------------:|:-----:|
 | Original paper 	| ImageNet-1k 	| 4096 | 74.6% 	|
 | Implementation 	| ImageNet-1k 	| 1024 | 72.58% 	| 
