@@ -1,7 +1,6 @@
 import torch
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
-
 from torch import nn
 from torch import Tensor
 from PIL import Image
