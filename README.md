@@ -107,8 +107,8 @@ python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --t_max=80000 --
 -  There is a difference in performance because of batch size
 
 ### Reference 
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762, "Attention Is All You Need")
-- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929, "Vision Transformer")
-- [When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548, "Vision Transformer")
-- [Recent Advances in Vision Transformer: A Survey and Outlook of Recent Work](https://arxiv.org/abs/2203.01536, "Vision Transformer")
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762 "Attention Is All You Need")
+- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929 "Vision Transformer")
+- [When Vision Transformers Outperform ResNets without Pre-training or Strong Data Augmentations](https://arxiv.org/abs/2106.01548 "Vision Transformer")
+- [Recent Advances in Vision Transformer: A Survey and Outlook of Recent Work](https://arxiv.org/abs/2203.01536 "Vision Transformer")
 
