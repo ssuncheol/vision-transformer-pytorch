@@ -98,6 +98,13 @@ I use ImageNet-1k Dataset to train and evalute model
 python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --t_max=80000 --mode='train' --world_size=8
 ```
 
+### How to eval 
+
+```shell
+python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --model='val' --world_size=8
+```
+
+
 ### Result 
 | - 	| Dataset 	| Batch size | Top-1 	|
 |:---------:|:--------:|:---------------------------------------:|:-----:|
