@@ -86,6 +86,7 @@ I use ImageNet-1k Dataset to train and evalute model
 | Batch_size 	| [int] 	| Batch size| 1024|
 | Model 	| [str]	| Vision Transformer| 	vit|
 | Optimizer 	| [str]	| Adam, Adamw| 	AdamW|
+| Learning rate | [str] | Learning rate | 1e-3 |
 | Weight_decay 	| [float]	| Weight decay | 0.3|
 | T_max 	| [int]	| Cosine Annealing step | 80000 |
 | Dropout 	| [float]	| Dropout | 0.0|
