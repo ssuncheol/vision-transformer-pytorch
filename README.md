@@ -95,6 +95,9 @@ I use ImageNet-1k Dataset to train and evalute model
 
 ### How to train
 
+Training time is 5 days with 8 GPUs. (RTX 3090 Ti)
+
+
 ```shell
 python3 main.py --lr=0.001 --batch_size=1024 --weight_decay=0.3 --t_max=80000 --mode='train' --world_size=8
 ```
