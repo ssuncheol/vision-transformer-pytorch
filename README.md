@@ -31,7 +31,7 @@ wandb login PERSONAL_API_KEY
 ### Cloning a repository
 
 ```shell
-git clone https://github.com/ssuncheol/Pytorch-VIT.git
+git clone [https://github.com/ssuncheol/vision-transformer-pytorch.git]
 ```
 
 ### Prepare a dataset(Imagenet-1k)
